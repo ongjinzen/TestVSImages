@@ -5,6 +5,7 @@
     <RootNamespace>Docker_Compose_Image_Test</RootNamespace>
     <UserSecretsId>97d077ad-0d13-4179-9d6c-7da8a08dce7d</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>

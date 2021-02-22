@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  docker-composeimagetest:
+    image: ${DOCKER_REGISTRY-}dockercomposeimagetest
+    build:
+      context: .
+      dockerfile: Docker-Compose Image Test/Dockerfile
